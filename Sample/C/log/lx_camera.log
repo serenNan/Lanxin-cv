@@ -1,0 +1,46 @@
+2024-11-07 18:01:33,742 WARNING [default] =========API_VERSION:2.4.34,20241017 on unix x86 cpu platform
+2024-11-07 18:01:33,743 WARNING [default] LibManager Load Library:libLxDataProcess.so Success. DataProcess version: 1.2.22,20240801
+2024-11-07 18:01:33,743 WARNING [default] getsockopt(SO_RCVBUF) 20971520
+2024-11-07 18:01:34,243 WARNING [default] Find device count 1
+ handle: 151948555227021
+ cameraid: F142411400005968
+ serial_number: 337516077D71DCF1
+ firmware_ver: V1.1.75_240608
+ mac: 8a:32:47:a8:8f:8d
+ netmask: 255.255.0.0
+ gateway: 192.168.100.1
+ localip: 192.168.100.100
+ info: camera_M4Pro_192.168.100.82_3956
+
+[W2024-11-07 18:01:34,244 140378104062272] lx_camera_api.cpp 266 api version:2.4.34,20241017
+[W2024-11-07 18:01:34,244 140378104062272] lx_camera_api.cpp 267 api begin DcSetInfoOutput log_path:./log/lx_camera.log log_level:1
+[W2024-11-07 18:01:34,244 140378104062272] lx_camera_api.cpp 158 lx_common_function.cpp[58] SetLogCallback: 
+[W2024-11-07 18:01:34,244 140378104062272] lx_camera_api.cpp 278 DataProcess version:1.2.22,20240801
+[W2024-11-07 18:01:34,249 140378104062272] device_gige.cpp 2294 camera_M4Pro_192.168.100.82_3956 TOF_Intr 436.799 436.307 340.888 244.539 0 0 0 0 0 
+[W2024-11-07 18:01:34,249 140378104062272] device_gige.cpp 2294 camera_M4Pro_192.168.100.82_3956 RGB_Intr 993.721 992.555 990.313 569.197 0 0 0 0 0 
+[W2024-11-07 18:01:34,249 140378104062272] device_gige.cpp 2294 camera_M4Pro_192.168.100.82_3956 RD_TD_RGB_Extr 0.999994 0.00355073 0.000227907 -0.00355032 0.999992 -0.00179446 -0.000234277 0.00179364 0.999998 -0.992197 -40.1063 1.89865 
+[W2024-11-07 18:01:34,249 140378104062272] device_gige.cpp 2405 camera_M4Pro_192.168.100.82_3956 hardware_status  tofsensor_status:0 rgbsensor_status:0 ldLeftTemp_status:0 ldRightTemp_status:0 sensorTemp_status:0 rtc_status:1 imu_status:0 extend_status:0
+[W2024-11-07 18:01:34,286 140378104062272] common.h 1620  not exist filter_simple in filterjson
+[W2024-11-07 18:01:34,286 140378104062272] interface_gige.cpp 421 camera_M4Pro_192.168.100.82_3956 process_move_up:0
+[W2024-11-07 18:01:34,289 140378104062272] interface_gige.cpp 453 camera_M4Pro_192.168.100.82_3956 get current image size from device success, tof_width:640 tof_height:480
+[W2024-11-07 18:01:34,289 140378104062272] interface_gige.cpp 4816 camera_M4Pro_192.168.100.82_3956 device_tof_raw_width:640 device_tof_raw_height:480 device_rgb_raw_width:1920 device_rgb_raw_height:1080 device_tof_raw_intr:436.799 436.308 340.888 244.539 -0.195053 0.0714814 0.000205337 2.77117e-05 -0.0152776  device_rgb_raw_intr:993.721 992.555 990.313 569.197 0.152781 -0.19024 -0.000224909 -0.000106665 0.0736213  device_raw_extr:0.999994 0.00355073 0.000227907 -0.00355032 0.999992 -0.00179446 -0.000234277 0.00179364 0.999998 -0.992197 -40.1063 1.89865 
+[W2024-11-07 18:01:34,289 140378104062272] lx_camera_api.cpp 158 lx_image_process.cpp[59] InitTofIntri: raw_width: 640 raw_height: 480 intr: 436.799 436.308 340.888 244.539
+[W2024-11-07 18:01:34,309 140378104062272] lx_camera_api.cpp 158 lx_image_process.cpp[68] InitTofIntri: 20ms
+[W2024-11-07 18:01:34,309 140378104062272] lx_camera_api.cpp 158 lx_image_process.cpp[116] InitRgbIntri: raw_width: 1920 raw_height: 1080 intr rgb: 993.721 992.555 990.313 569.197 T: -0.992197 -40.1063 1.89865
+[W2024-11-07 18:01:34,328 140378104062272] lx_camera_api.cpp 158 lx_image_process.cpp[127] InitRgbIntri: 18ms
+[W2024-11-07 18:01:34,334 140378104062272] device_manager.cpp 1062 OpenDev success, device string id:camera_M4Pro_192.168.100.82_3956_151948555227021_F142411400005968 device version:V1.1.75_240608
+[W2024-11-07 18:01:34,334 140378104062272] interface_gige.cpp 2631 camera_M4Pro_192.168.100.82_3956 Get type:LX_BOOL_ENABLE_3D_DEPTH_STREAM success, value:1
+[W2024-11-07 18:01:34,335 140378104062272] interface_gige.cpp 2631 camera_M4Pro_192.168.100.82_3956 Get type:LX_BOOL_ENABLE_3D_AMP_STREAM success, value:1
+[W2024-11-07 18:01:34,335 140378104062272] interface_gige.cpp 2631 camera_M4Pro_192.168.100.82_3956 Get type:LX_BOOL_ENABLE_2D_STREAM success, value:1
+[W2024-11-07 18:01:34,335 140378104062272] interface_gige.cpp 2390 camera_M4Pro_192.168.100.82_3956 Get type:LX_INT_3D_IMAGE_WIDTH success, value:640
+[W2024-11-07 18:01:34,335 140378104062272] interface_gige.cpp 2390 camera_M4Pro_192.168.100.82_3956 Get type:LX_INT_3D_IMAGE_HEIGHT success, value:480
+[W2024-11-07 18:01:34,335 140378104062272] interface_gige.cpp 2390 camera_M4Pro_192.168.100.82_3956 Get type:LX_INT_2D_IMAGE_WIDTH success, value:1920
+[W2024-11-07 18:01:34,335 140378104062272] interface_gige.cpp 2390 camera_M4Pro_192.168.100.82_3956 Get type:LX_INT_2D_IMAGE_HEIGHT success, value:1080
+[W2024-11-07 18:01:34,335 140378104062272] interface_gige.cpp 4636 camera_M4Pro_192.168.100.82_3956 Set type:LX_BOOL_ENABLE_SYNC_FRAME value:1 success
+[W2024-11-07 18:01:34,335 140378104062272] device_gige.cpp 3842 camera_M4Pro_192.168.100.82_3956 begin start stream. depth 1 amp 1 rgb 1 app 1
+[W2024-11-07 18:01:34,437 140378104062272] device_gige.cpp 4755 camera_M4Pro_192.168.100.82_3956 is_enable_sync_frame 1
+[W2024-11-07 18:01:34,437 140378104062272] device_gige.cpp 3988 camera_M4Pro_192.168.100.82_3956 device start stream success. current trigger_mode:0
+[E2024-11-07 18:01:34,438 140378104062272] interface_gige.cpp 3299 partitionRgb camera_M4Pro_192.168.100.82_3956partion rgb error
+[E2024-11-07 18:01:34,549 140378104062272] interface_gige.cpp 3110 partitionDepth camera_M4Pro_192.168.100.82_3956 partion depth error
+[E2024-11-07 18:01:34,549 140378104062272] interface_gige.cpp 3206 partitionAmp camera_M4Pro_192.168.100.82_3956 partion amp error
+[E2024-11-07 18:01:34,684 140378104062272] interface_gige.cpp 3525 partitionAlgorEx camera_M4Pro_192.168.100.82_3956 partion app error
