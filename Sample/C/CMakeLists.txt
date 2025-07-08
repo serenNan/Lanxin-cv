@@ -2,6 +2,7 @@
 project(lx_camera_demo)
 
 set(LIBS LxCameraApi)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 if (WIN32)
     if(CMAKE_CL_64) 
